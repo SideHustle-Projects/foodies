@@ -1,4 +1,4 @@
-import DeliveryDiningSharpIcon from "@mui/icons-material/DeliveryDiningSharp";
+// import DeliveryDiningSharpIcon from "@mui/icons-material/DeliveryDiningSharp";
 import React from "react";
 import AppleIcon from "@mui/icons-material/Apple";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
@@ -6,7 +6,10 @@ export const OnTheGo = () => {
   return (
     <div>
       <div className="otg-container">
-        <img src="https://www.pngkey.com/png/full/8-87286_food-main-cooking-with-weed-book.png" />
+        <img
+          src="https://www.pngkey.com/png/full/8-87286_food-main-cooking-with-weed-book.png"
+          alt=""
+        />
         <div className="otg">
           <div className="otg-text">
             <h2>Have your Food on the go</h2>
@@ -16,7 +19,7 @@ export const OnTheGo = () => {
               praesentium dio. Sequi, ex nobis?
             </p>
           </div>
-          <a href="">Order Now</a>
+          <a href="/">Order Now</a>
         </div>
       </div>
       <div className="foodies-app-container">
@@ -31,13 +34,13 @@ export const OnTheGo = () => {
             </p>
           </div>
           <div className="btn-container">
-            <a href="http://" target="_blank" className="download-btn">
+            <a href="http://" className="download-btn">
               <div className="btn">
                 <AppleIcon sx={{ fontSize: 40, mr: 2 }} />
                 App Store
               </div>
             </a>
-            <a href="http://" target="_blank" className="download-btn">
+            <a href="http://" className="download-btn">
               <div className="btn">
                 <PlayArrowIcon sx={{ fontSize: 40, mr: 2 }} /> Google Play
               </div>
